@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Henry's PopStar</title>
+        <style>
+            body {
+                background: #faf8ef;
+                color: darkblue;
+                margin: auto;
+                text-align: center;
+                background-image: url("Pictures/Animal-Crossing.jpg");
+                background-position: center;
+            }
+            h1 {
+                font-size: 280%;
+                font-family: "Meiryo UI";
+            }
+            table {
+                margin: auto;
+                text-align: center;
+                background-image: url("Pictures/Night.jpg");
+                border-spacing: 2px;
+                border-radius: 2px;
+            }
+            td {
+                width: 62px;
+                height: 62px;
+                border-radius: 5px;
+                font-size: 20px;
+                text-align: center;
+                color: #8ECC39;
+            }
+            #id-span-score {
+                font-size: x-large;
+                font-weight: bold;
+                color: orangered;
+            }
+            .score-text {
+                margin: 10px;
+                font-size: x-large;
+                font-weight: bold;
+            }
+            .clickable {
+                background: forestgreen;
+                border-style: outset;
+            }
+            .highlighted {
+                border-color: lawngreen;
+                border-width: medium;
+                border-style: inset;
+            }
+            .p1 {
+                background-image: url("Pictures/1.jpg");
+                background-position: center;
+            }
+            .p2 {
+                background-image: url("Pictures/2.jpg");
+                background-position: center;
+            }
+            .p3 {
+                background-image: url("Pictures/3.jpg");
+                background-position: center;
+            }
+            .p4 {
+                background-image: url("Pictures/4.jpg");
+                background-position: center;
+            }
+            .p5 {
+                background-image: url("Pictures/5.jpg");
+                background-position: center;
+            }
+            .pop {
+                background-image: url("Pictures/pop.png");
+                background-position: center;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>集合啦！PopStar</h1>
+            <music>
+                <audio id='id-audio-music' src="Music/朝日温子,戸高一生%20-%20K.K.%20Idol%20(しずえ%20Ver.).mp3"></audio>
+                <button class='button-play'>Play BGM</button>
+                <button class='button-pause'>Pause</button>
+            </music>
+            <div>
+                <span class="score-text">SCORE</span>
+                <span id="id-span-score">0</span>
+                <span class="score-text" id="combo">Combo X 0</span>
+            </div>
+        </header>
+        <div id="id-div-control">
+        </div>
+        <table id="id-table-field">
+        </table>
+        <script src="PopStar.js"></script>
+    </body>
+</html>

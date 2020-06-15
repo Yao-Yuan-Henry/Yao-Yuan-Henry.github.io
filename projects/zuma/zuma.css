@@ -1,0 +1,76 @@
+body {
+    background: black;
+}
+
+.background {
+    padding: 0;
+    margin: auto;
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.loading {
+    padding: 0;
+    margin: auto;
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    background: darkslategrey;
+    transition: all 1s;
+}
+
+.loading div {
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: xx-large;
+    color: white;
+    text-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+.logo {
+    z-index: 1;
+    position: absolute;
+    width: 300px;
+    top: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+canvas {
+    background-image: url("Pics/map.png");
+    padding: 0;
+    margin: auto;
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+sfx {
+    display: none;
+}
+
+.vertical-center {
+    top: 50%;
+    position: relative;
+    transform: translateY(-50%);
+}
+
+.horizontal-center {
+    left: 50%;
+    position: relative;
+    transform: translateY(-50%);
+}

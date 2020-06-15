@@ -1,0 +1,104 @@
+body {
+    background: rgb(48, 48, 48);
+}
+
+.container {
+    width: 1000px;
+    background-repeat: no-repeat;
+    background-image: url("Table/table_background.jpg");
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -25%);
+}
+
+.loading {
+    padding: 0;
+    margin: auto;
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    background: rgb(48, 48, 48);
+    transition: all 1s;
+}
+
+.loading div {
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: xx-large;
+    color: white;
+    text-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+
+.clickable {
+    cursor: pointer;
+}
+
+.upper {
+    margin: 15px 15px 15px 15px;
+    height: 130px;
+    width: auto;
+}
+
+.pile {
+    display: inline-block;
+    height: 130px;
+    width: 100px;
+}
+
+.pile card {
+    position: relative;
+    bottom: 0.5px;
+}
+
+.pile card:hover {
+    transform: translate(-0.5%, -0.5%);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+.opened {
+    margin-left: 8px;
+    margin-right: 8px;
+    display: inline-block;
+    height: 130px;
+    width: 200px;
+}
+
+.opened card:hover {
+    transform: translate(-0.5%, -0.5%);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+.slot {
+    margin-left: 9px;
+    display: inline-block;
+    height: 130px;
+    width: 100px;
+}
+
+.slot card:hover {
+    transform: translate(-0.5%, -0.5%);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+.lower {
+    margin-top: 22px;
+    margin-left: 15px;
+    height: 400px;
+    width: auto;
+}
+
+.column {
+    margin-right: 8px;
+    display: inline-block;
+    width: 100px;
+    height: 130px;
+}
+

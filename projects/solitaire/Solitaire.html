@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Henry's Solitaire</title>
+        <link rel="stylesheet" type="text/css" href="table.css">
+        <link rel="stylesheet" type="text/css" href="card.css">
+        <link rel="stylesheet" type="text/css" href="music_player.css">
+    </head>
+    <body>
+        <div class="loading">
+            <div>Now Loading...</div>
+        </div>
+        <div class="container">
+            <div class="upper">
+                <div class="pile clickable">
+                </div>
+                <div class="opened">
+                </div>
+                <div class="slot droppable" id="id-slot-0">
+                </div>
+                <div class="slot droppable" id="id-slot-1">
+                </div>
+                <div class="slot droppable" id="id-slot-2">
+                </div>
+                <div class="slot droppable" id="id-slot-3">
+                </div>
+            </div>
+            <div class="lower">
+                <div class="column" id="id-col-0">
+                </div>
+                <div class="column" id="id-col-1">
+                </div>
+                <div class="column" id="id-col-2">
+                </div>
+                <div class="column" id="id-col-3">
+                </div>
+                <div class="column" id="id-col-4">
+                </div>
+                <div class="column" id="id-col-5">
+                </div>
+                <div class="column" id="id-col-6">
+                </div>
+            </div>
+            <music>
+                <div class="now-playing">Speak Softly, Love - Nino Rota</div>
+                <audio id='id-audio-music' src="Music/Nino%20Rota%20-%20The%20Godfather%20(Love%20Theme).mp3"></audio>
+                <audio id="id-sfx-shove" src="SFX/cardShove1.wav"></audio>
+                <audio id="id-sfx-fan" src="SFX/cardFan.wav"></audio>
+                <audio id="id-sfx-up" src="SFX/up.wav"></audio>
+                <audio id="id-sfx-down" src="SFX/down.wav"></audio>
+                <audio id="id-sfx-win" src="SFX/end_level.flac"></audio>
+                <button class='button-play'>Play BGM</button>
+                <button class='button-pause'>Pause</button>
+            </music>
+        </div>
+        <script src="tool.js"></script>
+        <script src="music_player.js"></script>
+        <script src="initialize.js"></script>
+        <script src="drag_and_drop.js"></script>
+        <script src="click_on_pile.js"></script>
+        <script src="main.js"></script>
+    </body>
+</html>

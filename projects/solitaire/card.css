@@ -1,0 +1,334 @@
+card {
+    display: block;
+    height: 130px;
+    width: 100px;
+    background-size: 100%;
+    background-position: center;
+    border-radius: 12px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    transition: all 500ms;
+}
+
+.draggable:hover {
+    transform: translate(-2%, -2%);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+.back {
+    background-image: url("Cards/00.png") !important;
+}
+
+#id-card-c01 {
+    background-image: url("Cards/c01.png");
+}
+
+#id-card-c02 {
+    background-image: url("Cards/c02.png");
+}
+
+#id-card-c03 {
+    background-image: url("Cards/c03.png");
+}
+
+#id-card-c04 {
+    background-image: url("Cards/c04.png");
+}
+
+#id-card-c05 {
+    background-image: url("Cards/c05.png");
+}
+
+#id-card-c06 {
+    background-image: url("Cards/c06.png");
+}
+
+#id-card-c07 {
+    background-image: url("Cards/c07.png");
+}
+
+#id-card-c08 {
+    background-image: url("Cards/c08.png");
+}
+
+#id-card-c09 {
+    background-image: url("Cards/c09.png");
+}
+
+#id-card-c10 {
+    background-image: url("Cards/c10.png");
+}
+
+#id-card-c11 {
+    background-image: url("Cards/c11.png");
+}
+
+#id-card-c12 {
+    background-image: url("Cards/c12.png");
+}
+
+#id-card-c13 {
+    background-image: url("Cards/c13.png");
+}
+
+#id-card-d01 {
+    background-image: url("Cards/d01.png");
+}
+
+#id-card-d02 {
+    background-image: url("Cards/d02.png");
+}
+
+#id-card-d03 {
+    background-image: url("Cards/d03.png");
+}
+
+#id-card-d04 {
+    background-image: url("Cards/d04.png");
+}
+
+#id-card-d05 {
+    background-image: url("Cards/d05.png");
+}
+
+#id-card-d06 {
+    background-image: url("Cards/d06.png");
+}
+
+#id-card-d07 {
+    background-image: url("Cards/d07.png");
+}
+
+#id-card-d08 {
+    background-image: url("Cards/d08.png");
+}
+
+#id-card-d09 {
+    background-image: url("Cards/d09.png");
+}
+
+#id-card-d10 {
+    background-image: url("Cards/d10.png");
+}
+
+#id-card-d11 {
+    background-image: url("Cards/d11.png");
+}
+
+#id-card-d12 {
+    background-image: url("Cards/d12.png");
+}
+
+#id-card-d13 {
+    background-image: url("Cards/d13.png");
+}
+
+#id-card-h01 {
+    background-image: url("Cards/h01.png");
+}
+
+#id-card-h02 {
+    background-image: url("Cards/h02.png");
+}
+
+#id-card-h03 {
+    background-image: url("Cards/h03.png");
+}
+
+#id-card-h04 {
+    background-image: url("Cards/h04.png");
+}
+
+#id-card-h05 {
+    background-image: url("Cards/h05.png");
+}
+
+#id-card-h06 {
+    background-image: url("Cards/h06.png");
+}
+
+#id-card-h07 {
+    background-image: url("Cards/h07.png");
+}
+
+#id-card-h08 {
+    background-image: url("Cards/h08.png");
+}
+
+#id-card-h09 {
+    background-image: url("Cards/h09.png");
+}
+
+#id-card-h10 {
+    background-image: url("Cards/h10.png");
+}
+
+#id-card-h11 {
+    background-image: url("Cards/h11.png");
+}
+
+#id-card-h12 {
+    background-image: url("Cards/h12.png");
+}
+
+#id-card-h13 {
+    background-image: url("Cards/h13.png");
+}
+
+#id-card-s01 {
+    background-image: url("Cards/s01.png");
+}
+
+#id-card-s02 {
+    background-image: url("Cards/s02.png");
+}
+
+#id-card-s03 {
+    background-image: url("Cards/s03.png");
+}
+
+#id-card-s04 {
+    background-image: url("Cards/s04.png");
+}
+
+#id-card-s05 {
+    background-image: url("Cards/s05.png");
+}
+
+#id-card-s06 {
+    background-image: url("Cards/s06.png");
+}
+
+#id-card-s07 {
+    background-image: url("Cards/s07.png");
+}
+
+#id-card-s08 {
+    background-image: url("Cards/s08.png");
+}
+
+#id-card-s09 {
+    background-image: url("Cards/s09.png");
+}
+
+#id-card-s10 {
+    background-image: url("Cards/s10.png");
+}
+
+#id-card-s11 {
+    background-image: url("Cards/s11.png");
+}
+
+#id-card-s12 {
+    background-image: url("Cards/s12.png");
+}
+
+#id-card-s13 {
+    background-image: url("Cards/s13.png");
+}
+
+#id-card-j0 {
+    background-image: url("Cards/j0.png");
+}
+
+#id-card-j1 {
+    background-image: url("Cards/j1.png");
+}
+
+.column card {
+    position: relative;
+}
+
+.column card card {
+    position: relative;
+    top: 30px;
+}
+
+.column card card card {
+    position: relative;
+    top: 29px;
+}
+
+.column card card card card {
+    position: relative;
+    top: 28px;
+}
+
+.column card card card card card {
+    position: relative;
+    top: 27px;
+}
+
+.column card card card card card card {
+    position: relative;
+    top: 26px;
+}
+
+.column card card card card card card card {
+    position: relative;
+    top: 25px;
+}
+
+.column card card card card card card card card {
+    position: relative;
+    top: 24px;
+}
+
+.column card card card card card card card card card {
+    position: relative;
+    top: 23px;
+}
+
+.column card card card card card card card card card card {
+    position: relative;
+    top: 22px;
+}
+
+.column card card card card card card card card card card card {
+    position: relative;
+    top: 21px;
+}
+
+.column card card card card card card card card card card card card {
+    position: relative;
+    top: 20px;
+}
+
+.column card card card card card card card card card card card card card {
+    position: relative;
+    top: 19px;
+}
+
+.column card card card card card card card card card card card card card card {
+    position: relative;
+    top: 18px;
+}
+
+.column card card card card card card card card card card card card card card card {
+    position: relative;
+    top: 17px;
+}
+
+.column card card card card card card card card card card card card card card card card {
+    position: relative;
+    top: 16px;
+}
+
+.column card card card card card card card card card card card card card card card card card {
+    position: relative;
+    top: 15px;
+}
+
+.column card card card card card card card card card card card card card card card card card card {
+    position: relative;
+    top: 14px;
+}
+
+.column card card card card card card card card card card card card card card card card card card card {
+    position: relative;
+    top: 13px;
+}
+
+.column card card card card card card card card card card card card card card card card card card card card {
+    position: relative;
+    top: 12px;
+}

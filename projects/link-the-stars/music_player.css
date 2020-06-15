@@ -1,0 +1,19 @@
+.now-playing {
+    padding-bottom: 10px;
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.visible {
+    opacity: 1;
+}
+
+button {
+    padding: 10px;
+    color: #fff;
+    background: black;
+    opacity: 0.5;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Henry's Zuma</title>
+        <link rel="stylesheet" href="zuma.css">
+        <link rel="stylesheet" href="music_player.css">
+    </head>
+    <body>
+        <div class="loading">
+            <div>Now Loading...</div>
+        </div>
+        <img class="background" src="Pics/background.jpg" width="1440" alt="background">
+        <img class="logo" src="Pics/logo.png" alt="logo">
+        <canvas id="id-canvas"></canvas>
+
+        <music>
+            <div class="now-playing">Baba Yetu - Christopher Tin</div>
+            <audio id='id-audio-music' src="Music/Christopher%20Tin,The%20Soweto%20Gospel%20Choir%20-%20Baba%20Yetu.mp3"></audio>
+            <button class='button-play'>Start Game</button>
+            <button class='button-pause'>Pause</button>
+        </music>
+        
+        <sfx>
+            <audio id="id-sfx-clear" src="SFX/clear.mp3"></audio>
+            <audio id="id-sfx-clear2" src="SFX/clear2.mp3"></audio>
+            <audio id="id-sfx-collide" src="SFX/collide.mp3"></audio>
+            <audio id="id-sfx-collide-on-rail" src="SFX/collideOnRail.mp3"></audio>
+            <audio id="id-sfx-fail" src="SFX/fail.mp3"></audio>
+            <audio id="id-sfx-make-balls" src="SFX/makeBalls.mp3"></audio>
+            <audio id="id-sfx-shoot" src="SFX/shoot_01.mp3"></audio>
+            <audio id="id-sfx-win" src="SFX/win.mp3"></audio>
+        </sfx>
+        
+        <script src="library.js"></script>
+        <script src="utilities.js"></script>
+
+        <script src="Game.js"></script>
+        <script src="Shooter.js"></script>
+        <script src="Ball.js"></script>
+        <script src="Rail.js"></script>
+        <script src="Explosion.js"></script>
+        <script src="Mouth.js"></script>
+        
+        <script src="events.js"></script>
+        <script src="animate.js"></script>
+        <script src="initialize.js"></script>
+        <script src="music_player.js"></script>
+        <script src="main.js"></script>
+    </body>
+</html>

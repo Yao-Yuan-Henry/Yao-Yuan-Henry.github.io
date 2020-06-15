@@ -1,0 +1,5 @@
+	00
+Club	c01 ~ c13		01 ~ 13
+Diamond	d01 ~ d13		14 ~ 26
+Hearts	h01 ~ h13		27 ~ 39
+Spade	s01 ~ s13		40 ~ 52

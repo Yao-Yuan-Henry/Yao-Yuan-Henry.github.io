@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Link the Stars</title>
+        <link rel="stylesheet" type="text/css" href="Theme-Universe.css">
+        <link rel="stylesheet" type="text/css" href="music_player.css">
+    </head>
+    <body>
+        <div class="loading">
+            <div>Now Loading...</div>
+        </div>
+        <header>
+            <h1>Link the Stars</h1>
+            <music>
+                <div class="now-playing">Now Playing: Seaside Vacation - 十三機兵防衛圏</div>
+                <audio id='id-audio-music' src="Music/伊藤フウ%20-%20Seaside%20Vacation（《渚のバカンス》）.mp3"></audio>
+                <audio id='id-audio-link' src="Music/link.mp3"></audio>
+                <audio id='id-audio-explode' src="Music/explode.mp3"></audio>
+                <button class="button-play">Play BGM</button>
+                <button class="button-pause">Pause</button>
+            </music>
+        </header>
+        <div id="id-div-control">
+        </div>
+        <table id="id-table-field">
+        </table>
+        <script src="tool.js"></script>
+        <script src="music_player.js"></script>
+        <script src="link-the-stars.js"></script>
+    </body>
+</html>

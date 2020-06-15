@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Henry's Universe Sandbox</title>
+        <link rel="stylesheet" href="universe.css">
+        <link rel="stylesheet" href="music_player.css">
+    </head>
+    <body>
+        <img class="title" src="Pics/title.png" alt="title">
+        <section id="id-controls">
+            <label for="id-stars-list">Mass of Added Planet</label>
+            <select id="id-stars-list">
+                <option value="0.000003003">Earth</option>
+                <option value="0.0009543">Jupiter</option>
+                <option value="0.1">Red Dwarf Star</option>
+                <option value="1">Sun</option>
+            </select>
+            <button id="id-btn-reset">Reset</button>
+
+        </section>
+
+        <div id="id-scale-container">
+            <label for="id-scale-bar">Scale</label>
+            <input id="id-scale-bar" type="range" value="20">
+        </div>
+        
+        <canvas id="id-canvas"></canvas>
+
+        <music>
+            <div class="now-playing">Fly Me To The Moon - Frank Sinatra</div>
+            <audio id='id-audio-music' src="Music/Frank%20Sinatra%20-%20Fly%20Me%20To%20The%20Moon%20(In%20Other%20Words).mp3"></audio>
+            <button class='button-play'>Play BGM</button>
+            <button class='button-pause'>Pause</button>
+        </music>
+        
+        <script src="tool.js"></script>
+        <script src="utilities.js"></script>
+        <script src="system.js"></script>
+        <script src="draw.js"></script>
+        <script src="animate.js"></script>
+        <script src="initialize.js"></script>
+        <script src="music_player.js"></script>
+        <script src="main.js"></script>
+    </body>
+</html>

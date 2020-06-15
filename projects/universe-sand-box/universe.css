@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    background-color: black;
+    background-image: url("Pics/background.jpg");
+    background-position: center;
+    font-family: arial, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.title {
+    z-index: -1;
+    position: absolute;
+    width: 40%;
+    top: 10px;
+    right: 10px;
+}
+
+label {
+    color: white;
+}
+#id-controls {
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    width: 100%;
+    padding: 10px;
+}
+#id-controls > select, button {
+    background-color: white;
+    color: black;
+    border: 1px solid white;
+}
+#id-scale-container {
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+}
+
+#id-scale-container label {
+    margin-right: 10px;
+}
+
+#id-scale-bar {
+    width: 500px;
+}

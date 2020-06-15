@@ -1,0 +1,17 @@
+music {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    text-align: center;
+}
+
+.now-playing {
+    color: white;
+    padding-bottom: 10px;
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.visible {
+    opacity: 1;
+}
